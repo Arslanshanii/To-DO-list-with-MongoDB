@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+<title>Todo App</title>
+<link href="https://fonts.googleapis.com/css?family=Lato:100"     rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.css">
+    <link rel="stylesheet" href="/styles/layout.css">
+    <link rel="stylesheet" href="/styles/content.css">
+</head>
+<body>
+<div class="todo-container">
+<h2>To-Do List</h2>
+<div class="todo">
+
+<ul class="todo-list">
+<% todoTasks.forEach(item => { %>
+<% if (item._id == idTask) { %>
+<li class="todo-list-item">
+<form action="/edit/<%= item._id %>" method="POST">
+<input type="text" value="<%= item.content %>" name="content">
+<button class="confirm"type="submit">Confirm</button>
+<a href="/" class="Cancel">Cancel</a>
+</form>
+</li>
+<% } else { %>
+<li class="todo-list-item">
+<div class="todo-list-item-name"><%= item.name %></div>
+<a href="/edit/<%= item._id %>" class="edit"> <span class="fas fa-edit"></span>
+</a>
+</li>
+<% } %>
+<% }) %>
+</ul>
+</div>
+</div>
+</body

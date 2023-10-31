@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&display=swap");
+
+body{
+  background-color: palevioletred;
+  margin: 0;
+  display: flex; /* Use flexbox to center horizontally and vertically */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  min-height: 100vh; /* Ensure container takes at least the full viewport height */
+  width: 100%;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+
+
+p {
+  
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.copyright {
+  color: black;
+}
+
+
+.addtask {
+  
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 10%;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+#demo{
+  font-size: 35px;
+  color: black;
+  text-align:left;
+  margin-bottom: 10px;
+}
+.pos{
+  
+  border-radius:10px;
+  border: 1px solid #eee;
+  transition: .3s border-color;
+  margin-top: -25%
+  
+}
+
+.pos:hover {
+  border: 3px solid #4CAF50;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+li{
+  margin-bottom: 10px;
+}
+
+.bnd{
+  
+    position: sticky;
+    top: 85%;
+    left: 100%;
+    font-size: 18px;
+  
+}
+
+.complete{
+  margin-top: 10px;
+}
+
+.container{
+  margin-top: 5%;
+  margin-left: 35%;
+  
+}
+
+
+.abc{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+.container .big {
+  border: 2px;
+  padding: 10px;
+  width: 20em;
+  margin-left: -1%;
+}
+
+.item {
+  width: fit-content;
+  margin-left: -20px;
+}
+
+.container.btn{
+  padding:auto;
+  margin-left: 65%;
+  margin-top: -15%;
+}
+
+@media (max-width: 14in) {
+.container{
+    margin-left: 25%;
+ }
+}
