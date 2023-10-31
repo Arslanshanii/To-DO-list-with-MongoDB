@@ -4,9 +4,6 @@ This is a simple To-Do List web application built using Node.js, Express, and Mo
 
 <img width="900" alt="Screenshot 2023-10-31 172707" src="https://github.com/Arslanshanii/To-DO-list-with-MongoDB/assets/107418040/dd14493b-ac5b-4c11-a672-0557efa4164f">
 
-
-# To-Do List Web App
-This is a simple To-Do List web application built using Node.js, Express, and MongoDB. It allows users to add, edit, and remove tasks from their to-do list. The application uses the EJS template engine for rendering views and MongoDB to store task data.
 ## Features
 
 - Edit existing tasks.
