@@ -26,7 +26,7 @@ This is a simple To-Do List web application built using Node.js, Express, and Mo
 ```
 - Set up MongoDB:
 
-    Replace the MongoDB connection URL in app.js with your own MongoDB URL.
+    Replace the MongoDB connection URL in index.js with your own MongoDB URL.
 - Run the application:
 ```bash
   npm start
